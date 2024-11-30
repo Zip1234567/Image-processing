@@ -62,7 +62,7 @@ vector<KeyPoint> Moravec_corner_detection(Mat image, int window_size) {
 			}
 		}
 	}
-	cout << "Number of Result keypoints: " << keypoints.size() << endl; 
+	cout << "Number of Result Keypoints: " << keypoints.size() << endl; 
 
 	return keypoints;
 }
