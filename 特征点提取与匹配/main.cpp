@@ -45,7 +45,7 @@ vector<KeyPoint> Moravec_corner_detection(Mat image, int window_size) {
 				corners.at<float>(r, c) = 0;
 		}
 	}
-	cout << "Number of Choosen keypoints: " << countchoosen << endl;
+	cout << "Number of Choosen Keypoints: " << countchoosen << endl;
 
 	//极值点
 	vector<KeyPoint> keypoints;
@@ -131,7 +131,7 @@ vector<KeyPoint> Forstner_corner_detection(Mat image, int window_size ) {
 				corners_w.at<float>(r, c) = 0;
 		}
 	}
-	cout << "Number of Choosen keypoints: " << countchoosen << endl;
+	cout << "Number of Choosen Keypoints: " << countchoosen << endl;
 
 	//极值点
 	vector<KeyPoint> keypoints;
@@ -148,7 +148,7 @@ vector<KeyPoint> Forstner_corner_detection(Mat image, int window_size ) {
 			}
 		}
 	}
-	cout << "Number of Result keypoints: " << keypoints.size() << endl;  // 0.9  8   300
+	cout << "Number of Result Keypoints: " << keypoints.size() << endl;  // 0.9  8   300
 	return keypoints;
 }
 
